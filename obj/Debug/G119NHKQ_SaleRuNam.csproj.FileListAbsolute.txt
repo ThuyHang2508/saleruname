@@ -1,0 +1,34 @@
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\bin\Debug\G119NHKQ_SaleRuNam.exe.config
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\bin\Debug\G119NHKQ_SaleRuNam.exe
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\bin\Debug\G119NHKQ_SaleRuNam.pdb
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.csproj.AssemblyReference.cache
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.csproj.SuggestedBindingRedirects.cache
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Form1.resources
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Properties.Resources.resources
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.csproj.GenerateResource.cache
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.csproj.CoreCompileInputs.cache
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.exe
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.pdb
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam._2FrQLNHRuNam19.resources
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Fr21QLNhom_RuNam19.resources
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Fr22QLNSX_RuNam19.resources
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Fr23QLMATon_RuNam19.resources
+D:\Lập trình kế toán\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Fr24QLNV_RuNam19.resources
+D:\G119NHKQ_SaleRuNam\bin\Debug\G119NHKQ_SaleRuNam.exe.config
+D:\G119NHKQ_SaleRuNam\bin\Debug\G119NHKQ_SaleRuNam.exe
+D:\G119NHKQ_SaleRuNam\bin\Debug\G119NHKQ_SaleRuNam.pdb
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.csproj.AssemblyReference.cache
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.csproj.SuggestedBindingRedirects.cache
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Form1.resources
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Fr21QLNhom_RuNam19.resources
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Fr22QLNSX_RuNam19.resources
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Fr23QLMATon_RuNam19.resources
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Fr24QLNV_RuNam19.resources
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam._2FrQLNHRuNam19.resources
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Properties.Resources.resources
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.csproj.GenerateResource.cache
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.csproj.CoreCompileInputs.cache
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.exe
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.pdb
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Test.resources
+D:\G119NHKQ_SaleRuNam\obj\Debug\G119NHKQ_SaleRuNam.Fr20QLNH_RBTV19.resources

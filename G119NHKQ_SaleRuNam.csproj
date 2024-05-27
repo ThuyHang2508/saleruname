@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{754DCDD9-99FC-44ED-870B-5DF2317DB0CB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>G119NHKQ_SaleRuNam</RootNamespace>
+    <AssemblyName>G119NHKQ_SaleRuNam</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fr1Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr1Main.Designer.cs">
+      <DependentUpon>Fr1Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr20QLNH_RBTV19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr20QLNH_RBTV19.Designer.cs">
+      <DependentUpon>Fr20QLNH_RBTV19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr21QLNhom_RuNam19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr21QLNhom_RuNam19.Designer.cs">
+      <DependentUpon>Fr21QLNhom_RuNam19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr22QLNSX_RuNam19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr22QLNSX_RuNam19.Designer.cs">
+      <DependentUpon>Fr22QLNSX_RuNam19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr23QLMATon_RuNam19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr23QLMATon_RuNam19.Designer.cs">
+      <DependentUpon>Fr23QLMATon_RuNam19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr24QLNV_RuNam19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr24QLNV_RuNam19.Designer.cs">
+      <DependentUpon>Fr24QLNV_RuNam19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr2QLNHRuNam19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr2QLNHRuNam19.Designer.cs">
+      <DependentUpon>Fr2QLNHRuNam19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr3InBill_RuNam19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr3InBill_RuNam19.Designer.cs">
+      <DependentUpon>Fr3InBill_RuNam19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fr4OInvoiceRuNam19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fr4OInvoiceRuNam19.Designer.cs">
+      <DependentUpon>Fr4OInvoiceRuNam19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="G119KQSaleNhomRNDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G119KQSaleNhomRNDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G119KQSaleNSXRNDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G119KQSaleNSXRNDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G119KQSalTNhomRNDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G119KQSalTNhomRNDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G119NHKQNSXRuNamDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G119NHKQNSXRuNamDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G119NHKQNVRuNamNDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G119NHKQNVRuNamNDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G119NHKQsaleCTBill.cs">
+      <DependentUpon>G119NHKQsaleCTBill.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G119NHKQsaleCTBill.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G119NHKQsaleCTBill.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G119NHKQsaleCTHD.cs">
+      <DependentUpon>G119NHKQsaleCTHD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G119NHKQsaleCTHD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G119NHKQsaleCTHD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G119NHKQSaleDSTon.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G119NHKQSaleDSTon.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G119NHKQSaleRNDS1.cs">
+      <DependentUpon>G119NHKQSaleRNDS1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G119NHKQSaleRNDS1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G119NHKQSaleRNDS1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="G119QSaleMATonRNDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>G119QSaleMATonRNDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Fr1Main.resx">
+      <DependentUpon>Fr1Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr20QLNH_RBTV19.resx">
+      <DependentUpon>Fr20QLNH_RBTV19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr21QLNhom_RuNam19.resx">
+      <DependentUpon>Fr21QLNhom_RuNam19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr22QLNSX_RuNam19.resx">
+      <DependentUpon>Fr22QLNSX_RuNam19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr23QLMATon_RuNam19.resx">
+      <DependentUpon>Fr23QLMATon_RuNam19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr24QLNV_RuNam19.resx">
+      <DependentUpon>Fr24QLNV_RuNam19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr2QLNHRuNam19.resx">
+      <DependentUpon>Fr2QLNHRuNam19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="G119KQSaleNhomRNDS.xsc">
+      <DependentUpon>G119KQSaleNhomRNDS.xsd</DependentUpon>
+    </None>
+    <None Include="G119KQSaleNhomRNDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G119KQSaleNhomRNDS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G119KQSaleNhomRNDS.xss">
+      <DependentUpon>G119KQSaleNhomRNDS.xsd</DependentUpon>
+    </None>
+    <None Include="G119KQSaleNSXRNDS.xsc">
+      <DependentUpon>G119KQSaleNSXRNDS.xsd</DependentUpon>
+    </None>
+    <None Include="G119KQSaleNSXRNDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G119KQSaleNSXRNDS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G119KQSaleNSXRNDS.xss">
+      <DependentUpon>G119KQSaleNSXRNDS.xsd</DependentUpon>
+    </None>
+    <None Include="G119KQSalTNhomRNDS.xsc">
+      <DependentUpon>G119KQSalTNhomRNDS.xsd</DependentUpon>
+    </None>
+    <None Include="G119KQSalTNhomRNDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G119KQSalTNhomRNDS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G119KQSalTNhomRNDS.xss">
+      <DependentUpon>G119KQSalTNhomRNDS.xsd</DependentUpon>
+    </None>
+    <None Include="G119NHKQNSXRuNamDS.xsc">
+      <DependentUpon>G119NHKQNSXRuNamDS.xsd</DependentUpon>
+    </None>
+    <None Include="G119NHKQNSXRuNamDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G119NHKQNSXRuNamDS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G119NHKQNSXRuNamDS.xss">
+      <DependentUpon>G119NHKQNSXRuNamDS.xsd</DependentUpon>
+    </None>
+    <None Include="G119NHKQNVRuNamNDS.xsc">
+      <DependentUpon>G119NHKQNVRuNamNDS.xsd</DependentUpon>
+    </None>
+    <None Include="G119NHKQNVRuNamNDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G119NHKQNVRuNamNDS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G119NHKQNVRuNamNDS.xss">
+      <DependentUpon>G119NHKQNVRuNamNDS.xsd</DependentUpon>
+    </None>
+    <None Include="G119NHKQsaleCTBill.xsc">
+      <DependentUpon>G119NHKQsaleCTBill.xsd</DependentUpon>
+    </None>
+    <None Include="G119NHKQsaleCTBill.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G119NHKQsaleCTBill.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G119NHKQsaleCTBill.xss">
+      <DependentUpon>G119NHKQsaleCTBill.xsd</DependentUpon>
+    </None>
+    <None Include="G119NHKQsaleCTHD.xsc">
+      <DependentUpon>G119NHKQsaleCTHD.xsd</DependentUpon>
+    </None>
+    <None Include="G119NHKQsaleCTHD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G119NHKQsaleCTHD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G119NHKQsaleCTHD.xss">
+      <DependentUpon>G119NHKQsaleCTHD.xsd</DependentUpon>
+    </None>
+    <None Include="G119NHKQSaleDSTon.xsc">
+      <DependentUpon>G119NHKQSaleDSTon.xsd</DependentUpon>
+    </None>
+    <None Include="G119NHKQSaleDSTon.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G119NHKQSaleDSTon.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G119NHKQSaleDSTon.xss">
+      <DependentUpon>G119NHKQSaleDSTon.xsd</DependentUpon>
+    </None>
+    <None Include="G119NHKQSaleRNDS1.xsc">
+      <DependentUpon>G119NHKQSaleRNDS1.xsd</DependentUpon>
+    </None>
+    <None Include="G119NHKQSaleRNDS1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G119NHKQSaleRNDS1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G119NHKQSaleRNDS1.xss">
+      <DependentUpon>G119NHKQSaleRNDS1.xsd</DependentUpon>
+    </None>
+    <None Include="G119QSaleMATonRNDS.xsc">
+      <DependentUpon>G119QSaleMATonRNDS.xsd</DependentUpon>
+    </None>
+    <None Include="G119QSaleMATonRNDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>G119QSaleMATonRNDS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="G119QSaleMATonRNDS.xss">
+      <DependentUpon>G119QSaleMATonRNDS.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Balley Coffee1.png" />
+    <Content Include="Images\blue daimon.png" />
+    <Content Include="Images\bánh canh.png" />
+    <Content Include="Images\bí đỏ.png" />
+    <Content Include="Images\bò cube.png" />
+    <Content Include="Images\bò nướng đá.png" />
+    <Content Include="Images\bột chiên bạch tuoc.png" />
+    <Content Include="Images\caphe dau rừng.png" />
+    <Content Include="Images\caphe đào.png" />
+    <Content Include="Images\cf bánh plan.png" />
+    <Content Include="Images\cheers.png" />
+    <Content Include="Images\chonhinh.png" />
+    <Content Include="Images\chuối.png" />
+    <Content Include="Images\Cà phe bot sữa.png" />
+    <Content Include="Images\cơm runam.png" />
+    <Content Include="Images\cơm tấm.png" />
+    <Content Include="Images\gan gnocng.png" />
+    <Content Include="Images\kem dừa.png" />
+    <Content Include="Images\khu v ườn.png" />
+    <Content Include="Images\MadamRunam.png" />
+    <Content Include="Images\mago.png" />
+    <Content Include="Images\mì cay gà quya.png" />
+    <Content Include="Images\mì quảng.png" />
+    <Content Include="Images\mì vịt tiềm.png" />
+    <Content Include="Images\mía tắc sả.png" />
+    <Content Include="Images\nem bánh hỏi.png" />
+    <Content Include="Images\nem cua bể.png" />
+    <Content Include="Images\phở.png" />
+    <Content Include="Images\pudding.png" />
+    <Content Include="Images\rocket tôm.png" />
+    <Content Include="Images\Runam refese.png" />
+    <Content Include="Images\salad bò.png" />
+    <Content Include="Images\salad cua.png" />
+    <Content Include="Images\salad gà.png" />
+    <Content Include="Images\sườn non.png" />
+    <Content Include="Images\thăn nội bò.png" />
+    <Content Include="Images\tray shot.png" />
+    <Content Include="Images\ttom.png" />
+    <Content Include="Images\tàu hủ.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
